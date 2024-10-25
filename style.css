@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+#navbar-text-color {
+    color: dodgerblue;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: italic;
+}
+
+#home-text-color {
+    color: dodgerblue;
+    font-size: 30px;
+    font-weight: solid;
+    margin-right: 8px;
+}
+
+#nav-text {
+    color: orange;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.nav-link:hover {
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.food-munch-logo {
+    height: 10vh;
+    width: 14vw;
+    border-radius: 9px;
+}
+
+.background-heading {
+    color: white;
+    font-size: 30px;
+    font-family: 'roboto';
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.description-of-page {
+    color: green;
+    font-size: 100%;
+
+
+    margin-left: 20px;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.view-menu {
+    color: white;
+    background-color: orange;
+    height: 40px;
+    width: 130px;
+    border-radius: 8px;
+    border-width: 0;
+
+    text-align: center;
+    margin-right: 30px;
+}
+
+.custom-menu {
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 130px;
+    border-radius: 8px;
+    border-width: 0;
+
+    text-align: center;
+}
+
+
+.wcu-bg-container {
+    background-color: #f9fbfe;
+    background-size: cover;
+
+}
+
+.wcu-heading {
+    font-family: 'roboto';
+    font-size: 35px;
+    font-weight: bold;
+    color: orange;
+}
+
+.wcu-description {
+    font-size: 28px;
+    color: grey;
+    font-weight: 300;
+}
+
+.wcu-card-container {
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.wcu-card-container:hover {
+    background-color: lightgreen;
+}
+
+.card-image {
+
+    height: 50%;
+    width: 50%;
+
+}
+
+.card-heading {
+    font-family: 'roboto';
+    font-size: 35px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.card-description {
+    font-size: 20px;
+    color: brown;
+}
+
+
+.explore-menu-card-container {
+    background-color: white;
+    background-size: cover;
+}
+
+.explore-menu-heading {
+    font-weight: 700;
+    font-family: 'roboto';
+    color: tomato;
+}
+
+.explore-menu-description {
+    font-weight: 500;
+    color: grey;
+}
+
+.explore-card-item {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.explore-card-item:hover {
+    background-color: lightyellow;
+}
+
+.card-image {
+    width: 75%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.image-description {
+    font-family: italic;
+    color: orange;
+}
+
+.anchor-ele {
+    color: dodgerblue;
+}
+
+
+
+.follow-us_bg-container {
+    background-color: lightyellow;
+
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.follow-us-sec-heading {
+    color: brown;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.follow-us-icon {
+    color: dodgerblue;
+    font-size: 26px;
+}
+
+.icon-bg-color {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin: 7px;
+    padding: 8px;
+}
+
+.address-bg-container {
+    background-color: lightyellow;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.follow-us-headding {
+    color: pink;
+    font-size: 20px;
+
+}
+
+.follow-us-description {
+    color: orange;
+    font-size: 15px;
+}
+
+
+.background-gradiants {
+    background-image: linear-gradient(white, pink);
+    height:80vh ;
+    width: 100vw;
+}
+
+.thanking-custemr-page-heading {
+    font-size: 30px;
+    color: blue;
+    
+}
+
+@keyframes gift {
+    0% {
+        background-color: gold;
+        top: 0px;
+        left: 0px
+    }
+
+    25% {
+        background-color: lightgreen;
+        top: 0px;
+        left: 250px
+    }
+
+    50% {
+        background-color: dodgerblue;
+        top: 200px;
+        left: 250px
+    }
+
+    75% {
+        background-color: green;
+        top: 200px;
+       
+        left: 0px
+    }
+100%{
+    background-color: pink;
+    top: 0px;
+   
+    left: 0px
+}
+
+
+}
+
+.gift-image-card {
+    height:140px;
+    width: 140px;
+    background-size:cover;
+    
+    border-radius: 40px;
+    animation-name: gift;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    position: relative;
+}
+
+.gift-image-card:hover {
+    background-color: white;
+}
+
+.redeem-button {
+    border-radius: 8px;
+    border-color: white;
+    border-width: 0;
+    color: white;
+    background-color: dodgerblue;
+    height: 40px;
+    width: 170px;
+}
+
+.gift-voucher {
+    color: green;
+    font-weight: bold;
+
+}
+
+.voucher-image {
+    height: 25%;
+    width: 25%;
+}
+
+
+.modal-body:hover {
+    background-color: greenyellow;
+}
+
+.icon-bg-color {
+    background-color: black;
+}
+
+.fa-brands {
+    color: lightyellow;
+}
